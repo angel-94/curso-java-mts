@@ -1,17 +1,17 @@
 import java.io.*;
 import java.lang.*;
 
-public class Ejemplo1{
+public class UsoIf{
 
 	private static final String PASS = "123";
 
 	public static void main(String [] args){
-		
+
 		BufferedReader dataIn = new BufferedReader( new InputStreamReader(System.in));
-		
+
 		int grade = 0;
-		String var1 = "";		
-	
+		String var1 = "";
+
 		System.out.println("Gados: ");
 		try{
 			grade = Integer.parseInt(dataIn.readLine());
@@ -23,7 +23,7 @@ public class Ejemplo1{
 			}else{
 				System.out.println("No pasaste");
 			}*/
-			
+
 			if(grade >= 60 && grade <= 70){
 				var1 = "C";
 				//System.out.println("C");
@@ -51,7 +51,7 @@ public class Ejemplo1{
 				grade++;
 			}while(grade <= 100);
 			switch(var1){
-				case "C":  
+				case "C":
 					System.out.println("De pansazo");
 				break;
 				case "B":
@@ -71,7 +71,7 @@ public class Ejemplo1{
 			}
 		}catch(IOException e){
 			System.out.println("Error en leer");
-		}catch(NumberFormatException e){ 
+		}catch(NumberFormatException e){
 			System.out.println("Se esperaba un numero");
 		}catch(Exception e){
 			System.out.println("Error desconocido");

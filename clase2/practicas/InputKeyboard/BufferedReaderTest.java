@@ -1,7 +1,7 @@
 import java.io.*;
 import java.lang.*;
 
-public class Ejemplo1{
+public class BufferedReaderTest{
 
 	private static final String PASS = "123";
 
@@ -9,7 +9,7 @@ public class Ejemplo1{
 		String username = "";
 		String pass = "";
 		BufferedReader dataIn = new BufferedReader( new InputStreamReader(System.in));
-			
+
 		System.out.println("Username: ");
 		try{
 			username = dataIn.readLine();
