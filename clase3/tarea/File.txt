@@ -1,0 +1,3 @@
+msg1=Hola desde un archivo de texto.
+msg2=Programacion orientada a objetos.
+msg3=Bienvenido a Meltsan.

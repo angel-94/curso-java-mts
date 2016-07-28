@@ -19,12 +19,12 @@ public class Login{
 		BufferedReader dataIn = new BufferedReader( new InputStreamReader(System.in));
 
 		try{
-			//Obligamos a que el usuario introduzca un nombre  crontab
+			//Obligamos a que el usuario introduzca un nombre
 			do{
 				System.out.print("Introduce tu nombre: ");
 				username = dataIn.readLine();
 			}while(username.isEmpty());
-			//Cuando la contraseña falla 3 veces decimos que se ha bloqueado.
+			//Cuando la contraseña falla 3 veces decimos que se ha bloqueado.	
 			do{
 				System.out.print("Password: ");
 				pass = dataIn.readLine();
