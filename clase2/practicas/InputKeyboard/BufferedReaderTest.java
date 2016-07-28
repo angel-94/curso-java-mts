@@ -1,3 +1,9 @@
+/**
+ * Ejemplo de uso del BufferedReadder.
+ * @author Manuel Angel Ruiz
+ * @version 1.0
+ *
+ * */
 import java.io.*;
 import java.lang.*;
 
@@ -13,7 +19,7 @@ public class BufferedReaderTest{
 		System.out.println("Username: ");
 		try{
 			username = dataIn.readLine();
-			if(username.isEmpty()){
+		if(username.isEmpty()){
 				System.out.println("Error de nombre");
 				return;
 			}		

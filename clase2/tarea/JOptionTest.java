@@ -21,9 +21,9 @@ public class JOptionTest {
         JOptionPane.showMessageDialog(null, mensaje);
         edad = Integer.parseInt(JOptionPane.showInputDialog("Introduce tu edad: "));
       	if(edad > 100){
-          mensaje = "Hola " + nombre + "eres viejo!";
+          mensaje = "Hola " + nombre + " eres viejo!";
       	}else{
-          mensaje = "Hola " + nombre + "eres joven!";
+          mensaje = "Hola " + nombre + " eres joven!";
       	}
         JOptionPane.showMessageDialog(null, mensaje);
     }

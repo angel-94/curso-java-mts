@@ -1,5 +1,5 @@
 /**
- * Uso del while
+ * Practicas con el lenguaje java
  * @author Manuel Angel
  * @version 1.0
  * */
@@ -9,11 +9,11 @@ import java.io.InputStreamReader;
 public class FiveNamesUsingdowhile {
 
     public static void main(String[] args){
-
+        
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String name = "";
         int counter = 0;
-
+        //Solicitamos el nombre
         try{
             System.out.println("Nombre: ");
             name = reader.readLine();
