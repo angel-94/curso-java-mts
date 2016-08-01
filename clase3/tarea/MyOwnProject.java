@@ -16,7 +16,7 @@ public class MyOwnProject{
     MyProperties.setProperty("myKey20", "myValue20");
     MyProperties.setProperty("myKey30", "myValue30");
     MyProperties.setProperty("myKey40", "myValue40");
-    //Leemos los datos del arcfivo de texto
+    //Leemos los datos del arcfivo de texto  Angel774
     try {
       propFile = new FileInputStream("File.txt");
       MyProperties.load(propFile);

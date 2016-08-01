@@ -1,3 +1,9 @@
+/**
+ * Ejemplo 7 de la clase 3
+ * @author Manuel Angel.
+ * @versio 1.0
+ * */
+
 public class DataTypesE7 {
 
     public static void main(String[] args) {
